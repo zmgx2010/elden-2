@@ -1,0 +1,118 @@
+/* Basic resets and general styles */
+body {
+    background-color: #f2f2f2;
+    /* Light gray background */
+    color: #333;
+    /* Dark text color */
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navbar styling */
+header {
+    background-color: #222;
+    /* Dark background for the navbar */
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Main content styling */
+main .container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Article and text styling */
+h1 {
+    font-family: Verdana, sans-serif;
+    color: rgba(204, 27, 27, 0.685);
+    /* Red color for the main heading */
+    font-size: 1.7rem;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #000;
+    /* Black color for subheadings */
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 0.9rem;
+    color: #666;
+    /* Gray color for the author and date */
+    margin-bottom: 20px;
+}
+
+/* Image styling */
+.featured-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    /* Rounded corners for the image */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    background-color: rgb(255, 251, 251);
+    /* Light background for paragraphs */
+    color: rgb(0, 0, 0);
+    /* Text color */
+}
+
+/* Horizontal line styling */
+hr {
+    border-width: 5px;
+    border-color: rgba(255, 0, 0, 0.675);
+    /* Red color for horizontal line */
+    border-style: dashed;
+    margin: 20px 0;
+}
+
+/* Footer styling */
+footer {
+    background-color: #222;
+    /* Dark background for the footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
